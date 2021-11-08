@@ -36,7 +36,7 @@ public class CountDupLettersTest {
     @DisplayName("Count the number of times you see the letter F or f")
     public void countDuplicateLettersTest03(){
         String input = "Fluffy flow fell on the floor. She flopped.";
-        Integer expectedNumber = 5;
+        Integer expectedNumber = 7;
         Integer actualNumber = countDupLetters.countDuplicateLetters(input, "f");
         Assertions.assertEquals(expectedNumber, actualNumber);
     }
